@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño web tipo blog - para practicas</title>
+    <script src="https://kit.fontawesome.com/86e44028d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0,
+    minimum-scale = 1.0">
+</head>
+<body>
+    <!--Header - menu-->
+    <header>
+
+     <div class="header-content">
+
+        <div class="logo">
+        <h1>Ciencia<b>27182</b></h1>
+        </div>
+
+        <div class="menu" id="show-menu">
+            <nav>
+                <ul>
+                    <li><a href=""> <i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li><a href="Cursos.html"> <i class="fa-solid fa-bolt"></i> Cursos</a></li>
+                    <li class="menu-selected"><a href="index.html" class="text-menu-selected"> <i class="fa-solid fa-blog"></i>Blog</a></li>
+                    <li><a href="Contacto"> <i class="fa-regular fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="ctn-icon-search">
+        <i class="fas fa-search" id="icon-search"></i>
+        </div>
+
+     </div>
+      <div id="icon-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+
+    </header>
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué curso deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href=""><i class="fas fa-search"></i>DataScientist</a></li>
+        <li><a href="articulo.html"><i class="fas fa-search"></i>Matemáticas</a></li>
+        <li><a href=""><i class="fas fa-search"></i>KaliLinux</a></li>
+        <li><a href=""><i class="fas fa-search"></i>Como crear</a></li>
+        <li><a href=""><i class="fas fa-search"></i>Python</a></li>
+        <li><a href=""><i class="fas fa-search"></i>Rstudio</a></li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+
+
+    <!--Portada - menu-->
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Encuentra el curso de tu interes!</h1>
+            <p>La ciencia es la llave que abre las puertas del universo para obtener conocimiento.</p>
+        </div>
+
+    </div>
+
+    <div class="container-post">
+
+    <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+    <input type="radio" id="Hacking" name="categories" value="Hacking">
+    <input type="radio" id="Ciencia de datos" name="categories" value="DataScientist">
+    <input type="radio" id="Matemáticas" name="categories" value="Matemáticas">
+    <input type="radio" id="Python" name="categories" value="Python">
+    <input type="radio" id="Rstudio" name="categories" value="Rstudio">
+
+    <div class="container-category">
+        <label for="TODOS">TODOS</label>
+        <label for="Hacking">Hacking</label>
+        <label for="Ciencia de datos">DataScientist</label>
+        <label for="Matemáticas">Matemáticas</label>
+        <label for="Python">Python</label>
+        <label for="Rstudio">Rstudio</label>
+    </div>
+
+
+     <div class="posts">
+
+        <div class="post" data-category="Matemáticas DataScientist Python">
+
+            <div class="ctn-img">
+                <img src="./img/Curso ciencia de datos/1.png" alt="">
+    
+            </div>
+            <h2>Curso de Ciencia de datos con Python</h2>
+            <span>Con certificado</span>
+            <ul class="ctn-tag">
+                <li>Python</li>
+                <li>DataScientist</li>
+            </ul>
+            <a href="https://www.udemy.com/course/ciencia-de-datos/?referralCode=CE6105A23A0AC634E119"><button>Comprar curso!</button></a>
+    
+    
+    
+           </div>
+
+       <div class="post" data-category="Matemáticas DataScientist Python Rstudio">
+
+        <div class="ctn-img">
+            <img src="./img/Estadistica.png" alt="">
+
+        </div>
+        <h2>Curso Estadística y probabilidad para Ciencia de datos</h2>
+        <span>Con certificado</span>
+        <ul class="ctn-tag">
+            <li>DataScientist</li>
+            <li>Matemáticas</li>
+            <li>Python</li>
+            <li>Rstudio</li>
+        </ul>
+        <a href="https://www.udemy.com/course/estadistica-y-probabilidad-para-ciencia-de-datos/?referralCode=A8999BE0671888FB57FD"><button>Comprar curso!</button></a>
+
+       </div>
+       <div class="post" data-category="Matemáticas DataScientist Python">
+
+        <div class="ctn-img">
+            <img src="./img/NUMPY.png" alt="">
+
+        </div>
+        <h2>Cursos gratis en canal de youtube</h2>
+        <span>sin certificado</span>
+        <ul class="ctn-tag">
+            <li>Python</li>
+            <li>DataScientist</li>
+        </ul>
+        <a href="https://www.youtube.com/@Ciencia27182/featured"><button>Comprar curso!</button></a>
+
+
+
+       </div>
+     </div>
+    </div>
+
+
+
+
+    <div class="container-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="./img/CIENCIA_NUEVA_FOTO.jpg" alt="">
+            </div>
+            <div class="redes-footer">
+                <a href="https://www.facebook.com/profile.php?id=61552370185016"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+                <a href="https://www.instagram.com/ciencia27182/"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                <a href="https://www.tiktok.com/@juanmariouuu"><i class="fa-brands fa-google icon-redes-footer"></i></a>
+            </div>
+            <hr>
+            <h4>@ciencia27182 - Todos los derechos reservados 2024</h4>
+        </footer>
+    </div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
