@@ -188,7 +188,8 @@ input[type = "radio"]{
 [value="Matemáticas"]:checked ~ .posts .post:not([data-category~="Matemáticas"]),
 [value="Filo"]:checked ~ .posts .post:not([data-category~="Filo"]),
 [value="KaliLinux"]:checked ~ .posts .post:not([data-category~="KaliLinux"]),
-[value="DataScientist"]:checked ~ .posts .post:not([data-category~="DataScientist"]){
+[value="DataScientist"]:checked ~ .posts .post:not([data-category~="DataScientist"]),
+[value="Apps"]:checked ~ .posts .post:not([data-category~="Apps"]){
     display: none;
 }
 
@@ -198,7 +199,8 @@ input[type = "radio"]{
 [value="Filo"]:checked ~ .container-category [for="Filo"],
 [value="KaliLinux"]:checked ~ .container-category [for="KaliLinux"],
 [value="DataScientist"]:checked ~ .container-category [for="DataScientist"],
-[value="TODOS"]:checked ~ .container-category [for="TODOS"]{
+[value="Apps"]:checked ~ .container-category [for="Apps"],
+[value="TODOS"]:checked ~ .container-category [for="TODOS"],{
     background: #2743e0;
     color: #fff;
 }
